@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name         Codeforces Dark mode + Dark nutella
-// @version      1.1.7
+// @version      1.1.8
 // @description  Improved dark mode for Codeforces
 // @author       Gaurang Tandon & fork by David
 // @match        https://codeforces.com/*
@@ -141,6 +141,12 @@ div.logo-plus-button {
 			}
 		}
 	})();
+
+	(function fixLogo() {
+		applyFuncWhenElmLoaded("#header > div:nth-child(1) > a > img", function (elm) {
+			 elm.src="https://github.com/LordLava/codeforces-darktheme/raw/master/imgs/logo.png";
+		});
+	 })();
 
 	(function fixBlackTextInRightTableDuringContest() {
 		applyFuncWhenElmLoaded(".rtable span", function (elm) {
