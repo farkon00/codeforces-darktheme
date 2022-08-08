@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name         Codeforces Dark mode + Dark nutella
-// @version      1.1.10.1
+// @version      1.2
 // @description  Improved dark mode for Codeforces
 // @author       Gaurang Tandon & fork by David
 // @match        https://codeforces.com/*

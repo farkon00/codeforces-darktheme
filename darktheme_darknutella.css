@@ -459,6 +459,14 @@ td.dark span[style^="color: #0000bb;"] {
     color: #8cc3f9 !important;
 }
 
+.problem-statement .test-example-line-even {
+    background-color: #2b2b2b; !important;
+}
+.usertalks tr.unread td {
+    background-color: #2b2b2b !important;
+}
+
+
 /* gym pages */
 div.setting-name {
     color: #6c8bcc !important;
