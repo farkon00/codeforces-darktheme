@@ -459,7 +459,10 @@ td.dark span[style^="color: #0000bb;"] {
     color: #8cc3f9 !important;
 }
 .problem-statement .test-example-line-even {
-    background-color: #2b2b2b; !important;
+    background-color: #2b2b2b !important;
+}
+.problem-statement .test-example-line-odd {
+    background-color: #333333 !important;
 }
 .usertalks tr.unread td {
     background-color: #2b2b2b !important;
