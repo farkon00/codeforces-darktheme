@@ -1,17 +1,21 @@
 # Codeforces Dark Theme
+
+This is a fixed version of a dark theme made by [GaurangTandon](https://github.com/GaurangTandon/codeforces-darktheme)
+and greatly improved on by [LordLava](https://github.com/LordLava/codeforces-darktheme).
+
 ## Download instructions
 
 1. Install Tampermonkey for your browser. ([Instructions](https://tampermonkey.net/)).
 2.
-[**Click this link (White Nutella) **](https://github.com/LordLava/codeforces-darktheme/raw/master/codeforces-darktheme.user.js) to install Codeforces dark theme userscript.
+[**Click this link (White Nutella) **](https://github.com/farkon00/codeforces-darktheme/raw/master/codeforces-darktheme.user.js) to install Codeforces dark theme userscript.
 
-[**Click this link (Black Nutella) **](https://github.com/LordLava/codeforces-darktheme/raw/master/codeforces-darktheme-darknutella.user.js) to install Codeforces dark theme userscript.
+[**Click this link (Black Nutella) **](https://github.com/farkon00/codeforces-darktheme/raw/master/codeforces-darktheme-darknutella.user.js) to install Codeforces dark theme userscript.
 
 3. Reload Codeforces twice.
 
 
 
-A dark theme for Codeforces. [**Click to install**](https://github.com/LordLava/codeforces-darktheme/raw/master/codeforces-darktheme.user.js) (requires a userscript manager)
+A dark theme for Codeforces. [**Click to install**](https://github.com/farkon00/codeforces-darktheme/raw/master/codeforces-darktheme.user.js) (requires a userscript manager)
 
 ![screenshot of home page](./imgs/screenshot.png)
 
@@ -26,10 +30,9 @@ This warning is mainly to prevent vulnerable users from installing malicious ext
 
 ## External dependencies
 
-Both are for dark theme syntax highlighting of code.
+The dependecy is used for dark theme syntax highlighting of code.
 
 1. [prettyprint's desert.css](https://github.com/google/code-prettify/blob/master/styles/desert.css), since Codeforces depends on the same library for formatting submission's display ([Apache license](https://github.com/google/code-prettify/blob/master/COPYING)).
-2. [Ace editor's monokai.css](https://github.com/ajaxorg/ace/blob/master/lib/ace/theme/monokai.css) since Codeforces' submission codebox uses the Ace editor ([BSD license](https://github.com/ajaxorg/ace/blob/master/LICENSE)).
 
 ## Contribution guidelines
 
