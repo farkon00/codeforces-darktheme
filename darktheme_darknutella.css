@@ -512,12 +512,15 @@ div.setting-name {
 /* need to prefix overrides with tag name
  precedence woes :( */
 span.user-legendary::first-letter,
-a.user-legendary::first-letter,
+a.user-legendary::first-letter {
+    color: #000 !important;
+}
+
 span.user-admin,
 a.user-admin,
 span.user-black,
 a.user-black {
-    color: #000 !important;
+    color: #fff !important;
 }
 
 /* tr for the rating tables page*/
