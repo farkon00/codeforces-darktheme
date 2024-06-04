@@ -248,11 +248,18 @@ div.logo-plus-button {
 		});
 	})();
 
-    (function fixLogo() {
+    (function fixImageBackgrounds() {
 		applyFuncWhenElmLoaded("#header > div:nth-child(1) > a > img", function (elm) {
-			 elm.src="https://github.com/farkon00/codeforces-darktheme/raw/master/imgs/logo.png";
+			elm.src="https://github.com/farkon00/codeforces-darktheme/raw/master/imgs/logo.png";
 		});
-	 })();
+		applyFuncWhenElmLoaded(".header-bell__img", function (elm) {
+			overrideStyleAttribute(elm, "background-image",
+								   "url(https://github.com/farkon00/codeforces-darktheme/raw/master/imgs/bell.png)");
+		});
+		applyFuncWhenElmLoaded("#footer img[alt=\"TON\"]", function (elm) {
+			elm.src="https://github.com/farkon00/codeforces-darktheme/raw/master/imgs/ton-logo.png";
+		});
+	})();
 
 	(function fixColorRedGreenContrast() {
 		if (document.readyState != "complete") {
