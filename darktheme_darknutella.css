@@ -220,6 +220,11 @@ input[type="file"] {
     border-width: 2px !important;
     border-style: solid !important;
 }
+input[type="submit"]:hover,
+input[type="button"]:hover,
+input[type="file"]:hover {
+    background: var(--tableGreyRow) !important;
+}
 
 /* select menus */
 select, .SelectBox, .optWrapper {
