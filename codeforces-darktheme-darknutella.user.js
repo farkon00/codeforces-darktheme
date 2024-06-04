@@ -274,7 +274,7 @@ div.logo-plus-button {
 		});
 		applyFuncWhenElmLoaded(".header-bell__img", function (elm) {
 			overrideStyleAttribute(elm, "background-image",
-								   "https://github.com/farkon00/codeforces-darktheme/raw/master/imgs/bell.png");
+								   "url(https://github.com/farkon00/codeforces-darktheme/raw/master/imgs/bell.png)");
 		});
 		applyFuncWhenElmLoaded("#footer img[alt=\"TON\"]", function (elm) {
 			elm.src="https://github.com/farkon00/codeforces-darktheme/raw/master/imgs/ton-logo.png";
