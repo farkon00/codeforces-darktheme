@@ -47,7 +47,10 @@ div.ttypography .bordertable thead th:not(:last-child) {
 .search,
 .ac_input,
 input[name$="Difficulty"],
+input:not(input[type]),
 input[type="text"],
+input[type="email"],
+input[type="password"],
 input[type="number"],
 #title,
 #comment {
