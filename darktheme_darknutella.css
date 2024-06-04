@@ -216,6 +216,19 @@ input[type="file"] {
     color: var(--whiteTextColor) !important;
     background: #181818 !important;
     border-color: #4f4f4f !important;
+    border-radius: 3px !important;
+    border-width: 2px !important;
+    border-style: solid !important;
+}
+
+/* select menus */
+select, .SelectBox, .optWrapper {
+    background-color: var(--inputBoxBackgroundBorderColor) !important;
+    border-color: var(--inputBoxBackgroundBorderColor) !important;
+    color: var(--whiteTextColor) !important;
+}
+.SumoSelect > .optWrapper > .options li.opt:hover {
+    background-color: var(--tableGreyRow) !important;
 }
 
 /* fix for google calendar */
