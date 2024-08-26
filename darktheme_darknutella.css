@@ -344,6 +344,7 @@ body.notfoundpage h3, /* notfoundpage class courtesy of JS function below */
 .page-index.active,
 span#u_0_4, /* fb text like plugin */
 .menu-list-container ul li a,
+.comments div label.show-archived,
 #header h3,
 /* on no connection page, only p and ul direct children are present #21 */
 body > p, body > ul
