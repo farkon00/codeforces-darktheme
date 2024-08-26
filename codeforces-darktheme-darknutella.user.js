@@ -8,7 +8,8 @@
 // @match        https://calendar.google.com/calendar/embed*
 // @match        https://www.facebook.com/v2.8/plugins/like.php*
 // @resource     desertCSS  https://github.com/farkon00/codeforces-darktheme/raw/master/desert.css
-// @resource     darkthemecss https://github.com/farkon00/codeforces-darktheme/raw/master/darktheme_darknutella.css
+// @resource     darkthemecss https://github.com/farkon00/codeforces-darktheme/raw/master/darktheme.css
+// @resource     darknutellacss https://github.com/farkon00/codeforces-darktheme/raw/master/darktheme_darknutella.css
 // @resource     monokaithemecss https://github.com/farkon00/codeforces-darktheme/raw/master/monokai-theme.css
 // @grant        GM_addStyle
 // @grant        GM_getResourceText
@@ -44,10 +45,12 @@ div.logo-plus-button {
 	}
 
 	var style = GM_getResourceText("darkthemecss"),
+		darknutella = GM_getResourceText("darknutellacss"),
 		desertCSS = GM_getResourceText("desertCSS"),
 		monokaiEditorThemeCSS = GM_getResourceText("monokaithemecss");
 
 	GM_addStyle(style);
+	GM_addStyle(darknutella);
 	GM_addStyle(desertCSS);
 
 	// to avoid long FOUT duration
