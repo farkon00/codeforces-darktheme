@@ -2,3 +2,9 @@ span.user-legendary::first-letter,
 a.user-legendary::first-letter {
     color: #000 !important;
 }
+
+tr.user-4000 td,
+span.user-4000,
+a.user-4000 {
+    color: #000 !important;
+}

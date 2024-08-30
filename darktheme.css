@@ -536,6 +536,12 @@ a.user-legendary {
     color: var(--redColorJustPassesA11Y) !important;
 }
 
+tr.user-4000 td,
+span.user-4000,
+a.user-4000 {
+    color: white !important;
+}
+
 tr.user-cyan td,
 span.user-cyan,
 a.user-cyan {
