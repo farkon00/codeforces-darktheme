@@ -189,6 +189,10 @@ div.ttypography .tt,
     border-left-color: #58ca25 !important;
 }
 
+.problems {
+    border-collapse: initial !important;
+}
+
 div.ttypography .MathJax {
     -webkit-filter: invert(1) !important;
     filter: invert(1) !important;
